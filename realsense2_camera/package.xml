@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>realsense_filics</name>
+  <name>realsense2_camera</name>
   <version>1.0.0</version>
   <description>A Filics Adaptation of the RealSense2 Camera Package</description>
   <maintainer email="bojadzic@filics.eu">Dmair Bojadžić</maintainer>
