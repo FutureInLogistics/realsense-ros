@@ -93,7 +93,7 @@ BaseRealSenseNode::BaseRealSenseNode(ros::NodeHandle& nodeHandle,
     // Types for depth stream
     _format[RS2_STREAM_DEPTH] = RS2_FORMAT_Z16;
     _image_format[RS2_STREAM_DEPTH] = CV_16UC1;    // CVBridge type
-    _encoding[RS2_STREAM_DEPTH] = sensor_msgs::image_encodings::TYPE_16UC1; // ROS message type
+    _encoding[RS2_STREAM_DEPTH] = sensor_msgs::image_encodings::MONO16; // ROS message type
     _unit_step_size[RS2_STREAM_DEPTH] = sizeof(uint16_t); // sensor_msgs::ImagePtr row step size
     _stream_name[RS2_STREAM_DEPTH] = "depth";
 
